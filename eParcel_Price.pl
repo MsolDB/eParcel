@@ -130,7 +130,7 @@ while (<INFILE>) {
 			$ToPostcode = sprintf("%04s",$ToPostcode);
 		}
 
-		
+#Change these calls		
 ## Get Full Rate Pricing
 		my $Header = "Auth-key:YjQ3NGQzMzctNzUzMy00ZDE5LWE3YjYtYmNhYjk2Mjc5MWFl";
 		my $url    = "https://digitalapi.auspost.com.au/postage/parcel/domestic/calculate.{format}?from_postcode=$FromPostcode&to_postcode=$ToPostcode&length=$Length&width=$Width&height=$Height&weight=$Weight&service_code=AUS_PARCEL_REGULAR";
