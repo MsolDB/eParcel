@@ -1,0 +1,9 @@
+eParcel_Test    - Run a data ready file through the eParcel system & flag
+                  any invalid addresses so they can be fixed prior to lodgement
+
+eParcel_Price   - Run a data ready file through the eParcel system to generate
+                  full rate & contract pricing
+
+eParcel_Convert - Convert a data ready file in to eParcel consignment file format
+                  ready for uploading to the eParcel system
+
